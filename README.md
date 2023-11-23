@@ -143,11 +143,21 @@ systemctl status grafana-server
 
 <img width="1418" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/407b2f24-1e50-4ca1-bd19-7296b9f50e41">
 
+- Connect to grafana using the public ip address with port 3000 ```<public-ip-address>:3000```.
+
 <img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6680ada3-697d-46d1-945e-2637889a1304">
 
 - Access the grafana UI using admin for both username and password and change your password to your choice.
 
 <img width="1439" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/b04ab93d-8ad1-4b09-9064-2a2126739dc1">
+
+- Configure data source by adding your data source and choose cloudwatch
+  
+<img width="1434" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/671bfb6e-8d93-46d6-addc-b6667f12bbc1">
+
+<img width="1432" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/03f8e095-126c-440b-992f-ce061c42804b">
+
+
 
 
 
