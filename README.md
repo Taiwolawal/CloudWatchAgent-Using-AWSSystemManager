@@ -111,6 +111,9 @@ Click on Create parameter when done.
 
 <img width="1118" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/182f0852-338c-4398-8346-b9ae45dd6919">
 
+<img width="1180" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8f145de9-ed1e-4426-998d-f4e1a207dcb5">
+
+
 
 
 
