@@ -175,7 +175,35 @@ systemctl status grafana-server
 
 <img width="1390" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/ca2bf499-4956-4252-934e-deebf34856c0">
 
+<img width="1410" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/15990c80-2bd4-4b25-b9c6-5cce0479be9b">
+
+
 4. Establish IAM user who has access to the IAM role and IAM policy you just created.
+
+<img width="1382" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/0ecc967b-09ca-4821-b0be-2237d1425568">
+
+5. Attach the policy to the user
+
+<img width="1384" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/670864a2-4b44-4013-b5a4-74f38b4fdaa5">
+
+<img width="1377" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/861e386d-2b22-4c8c-a004-fc0821b62cb3">
+
+6. Create access key credentials for the user
+
+<img width="1199" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/5c0c4d99-2ad6-4376-9aa3-decc6b0401dd">
+
+<img width="1212" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/17b4049a-b17f-493b-a5f4-7296156f4fd3">
+
+<img width="1169" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/90cdb915-a7b9-46e5-8130-e0340a2be248">
+
+7. Create credentials file in the grafana server
+
+6. Attach the role to grafana instance
+
+<img width="1407" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/d78b4360-88e8-4d6d-a940-6c63230fca0f">
+
+<img width="740" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/9a692cb3-c171-45d0-b43e-2915646699d2">
+
 
 
 
