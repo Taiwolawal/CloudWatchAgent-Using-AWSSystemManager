@@ -157,6 +157,30 @@ systemctl status grafana-server
 
 <img width="1432" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/03f8e095-126c-440b-992f-ce061c42804b">
 
+- Integrating Grafana with AWS
+  
+1. Create IAM Policy
+
+<img width="1362" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6cdd2316-312c-466c-a5da-4fe40851e6e6">
+
+<img width="1389" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/503f2d29-c0e8-424f-960f-dae01a0479da">
+
+2. Create IAM Role: Select AWS Services and EC2
+
+<img width="1387" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/227f69b3-b487-4f04-9dbe-b0d1594013b9">
+
+3. Add Permission by adding the policy created earlier and create the role
+
+<img width="1389" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/20fb2d57-8e54-448e-b940-2efdeef8087c">
+
+<img width="1390" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/ca2bf499-4956-4252-934e-deebf34856c0">
+
+4. Establish IAM user who has access to the IAM role and IAM policy you just created.
+
+
+
+
+
 
 
 
