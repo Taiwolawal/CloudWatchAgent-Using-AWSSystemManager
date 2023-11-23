@@ -209,6 +209,8 @@ systemctl status grafana-server
 
 <img width="740" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/9a692cb3-c171-45d0-b43e-2915646699d2">
 
+7. Connect grafana to Cloudwatch: I got some errors, trying to comm
+
 
 
 
