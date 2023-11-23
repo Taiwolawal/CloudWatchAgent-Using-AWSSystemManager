@@ -97,9 +97,19 @@ Click on Create parameter when done.
 
 ![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8f59d098-42c1-4bb2-96b4-9339e007929f)
 
-![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/b2ff0536-a69a-4f2d-bb2f-e157d4a0e223)
+## Step 4: Install CloudWatch Agent package on the target EC2 instances
 
+- Click on the Run command, on the command document search for ```AmazonCloudWatch-ManageAgent```
 
+<img width="1165" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/3448de3e-4026-4e29-8f20-2bdc70fad2ff">
+
+- Command Parameters: Ensure you enter the name of the parameter you created earlier ```AmazonCloudWatch-Metrics``` in the optional configuration section and ensure the optional configuration source is left as ```ssm```
+
+<img width="1402" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/1cdc8366-0fce-4994-9b31-a9f25bfef8c3">
+
+- Target selection: Select the instances you want to install the CloudWatch Agent on and click run at the end of the page
+
+<img width="1118" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/182f0852-338c-4398-8346-b9ae45dd6919">
 
 
 
