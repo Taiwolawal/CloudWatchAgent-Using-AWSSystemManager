@@ -1,7 +1,5 @@
 # CloudWatchAgent-Using-AWSSystemManager
 
-Installing AWS CloudWatch Agent with AWS Systems Manager
-
 The project demonstrates how to automate the installation of CloudWatch Agent using AWS System Manager and monitoring and alerting via Grafana
 
 ## Step 1: Create an IAM Role and attach policies "CloudWatchAgentServerPolicy" and "AmazonSSMManagedInstanceCore"
