@@ -213,10 +213,12 @@ systemctl status grafana-server
 
 - Confirm grafana connection to cloudwatch: The highlighted section in the screenshot should be set accordingly. When I clicked on ```Save & Test```, I got some permission-related error, so I updated the grafana policy.
 
+<img width="1438" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/771dfc0f-ec84-4c85-81a3-a4213e9f0ddb">
+
 ![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/0429756f-d8e9-413d-bc0c-e0d8419c117b)
 
 
-  <img width="1438" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/771dfc0f-ec84-4c85-81a3-a4213e9f0ddb">
+
 
 
 
