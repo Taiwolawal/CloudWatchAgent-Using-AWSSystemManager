@@ -198,6 +198,9 @@ systemctl status grafana-server
 
 7. Create credentials file in the grafana server
 
+<img width="569" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/08417f04-b6a5-46c7-a4fd-1dc1dce6b5ad">
+
+
 6. Attach the role to grafana instance
 
 <img width="1407" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/d78b4360-88e8-4d6d-a940-6c63230fca0f">
