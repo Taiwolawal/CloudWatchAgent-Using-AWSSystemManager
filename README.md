@@ -195,11 +195,11 @@ systemctl status grafana-server
 
 <img width="740" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/9a692cb3-c171-45d0-b43e-2915646699d2">
 
+## Step 7: Connecting to grafana 
+
 - Connect to grafana using the public ip address with port 3000 ```<public-ip-address>:3000```.
 
 <img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6680ada3-697d-46d1-945e-2637889a1304">
-
-## Step 7: Connecting to grafana 
 
 - Access the grafana UI using admin for both username and password and change your password to your choice.
 
@@ -211,7 +211,13 @@ systemctl status grafana-server
 
 <img width="1432" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/03f8e095-126c-440b-992f-ce061c42804b">
 
-- Connect grafana to Cloudwatch: I got some errors, trying to comm
+- Confirm grafana connection to cloudwatch: The highlighted section in the screenshot should be set accordingly. When I clicked on ```Save & Test```, I got some permission-related error, so I updated the grafana policy.
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/0429756f-d8e9-413d-bc0c-e0d8419c117b)
+
+
+  <img width="1438" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/771dfc0f-ec84-4c85-81a3-a4213e9f0ddb">
+
 
 
 
