@@ -36,6 +36,75 @@ Kindly take note that the name section can't be any name, the names required in 
 
 <img width="629" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6523c175-c0ed-4699-8d72-e0d466774185">
 
+- Target selection: Select the instances you want to download CloudwatchAgent on and hit Run at the end of the page
+
+<img width="1117" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/878efad9-6b04-4a38-a494-7a6c0f88edc4">
+
+<img width="1432" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/f09e0583-63ec-496d-8f48-289454f0dc72">
+
+## Step 3: Save Agent Configuration in Parameter store
+
+We will save the agent configuration file in AWS System Manager --> Parameter Store
+
+<img width="1401" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/463c499a-a88b-4be9-856e-ff5f2070cf03">
+
+Give a name for the Parameter ```AmazonCloudWatch-Metrics``` ,Tier ```Standard``` , type ```String```
+
+<img width="878" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/937b8a24-9702-49b5-bcb0-572055f1f41a">
+
+The configuration we are using is to show Disk and Memory metrics to CloudWatch. The value section will have this:
+
+```
+{
+   "agent": {
+      "metrics_collection_interval": 60,
+      "run_as_user": "root"
+   },
+   "metrics": {
+      "aggregation_dimensions": [
+         [
+            "InstanceId"
+         ]
+      ],
+      "append_dimensions": {
+         "ImageId": "${aws:ImageId}",
+         "InstanceId": "${aws:InstanceId}",
+         "InstanceType": "${aws:InstanceType}"
+      },
+      "metrics_collected": {
+         "disk": {
+            "measurement": [
+               "used_percent"
+            ],
+            "metrics_collection_interval": 60,
+            "resources": [
+               "/"
+            ]
+         },
+         "mem": {
+            "measurement": [
+               "mem_used_percent"
+            ],
+            "metrics_collection_interval": 60
+         }
+      }
+   }
+}
+```
+Click on Create parameter when done.
+
+<img width="1118" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/10bb28e6-498c-48df-a82e-b45deada52a3">
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8f59d098-42c1-4bb2-96b4-9339e007929f)
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/b2ff0536-a69a-4f2d-bb2f-e157d4a0e223)
+
+
+
+
+
+
+
 
 
 
