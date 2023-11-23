@@ -121,6 +121,31 @@ Click on create parameter when done.
 
 <img width="1157" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/2e6663bd-f0c4-4832-819a-8c72bf8b56e1">
 
+## Step 6: Display Metrics on Grafana
+
+- Setup an instance (ubuntu) and install grafana on it and ensure you set the security group by opening port 3000 for grafana
+
+<img width="1357" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/704e46d2-484c-4c04-b28d-d66256755965">
+
+- Install grafana
+
+```
+sudo apt update
+sudo apt-get install -y gnupg2 curl software-properties-common
+sudo curl https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+sudo apt update
+sudo apt -y install grafana
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+systemctl status grafana-server
+```
+
+<img width="1418" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/407b2f24-1e50-4ca1-bd19-7296b9f50e41">
+
+<img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6680ada3-697d-46d1-945e-2637889a1304">
+
+<img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8cbaeadb-1c83-4bed-b859-e0ff06fc6a3f">
 
 
 
