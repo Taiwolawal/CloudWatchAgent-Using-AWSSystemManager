@@ -145,7 +145,11 @@ systemctl status grafana-server
 
 <img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6680ada3-697d-46d1-945e-2637889a1304">
 
-<img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8cbaeadb-1c83-4bed-b859-e0ff06fc6a3f">
+- Access the grafana UI using admin for both username and password and change your password to your choice.
+
+<img width="1439" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/b04ab93d-8ad1-4b09-9064-2a2126739dc1">
+
+
 
 
 
