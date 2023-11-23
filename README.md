@@ -91,7 +91,7 @@ The configuration we are using is to show Disk and Memory metrics to CloudWatch.
    }
 }
 ```
-Click on Create parameter when done.
+Click on create parameter when done.
 
 <img width="1118" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/10bb28e6-498c-48df-a82e-b45deada52a3">
 
@@ -112,6 +112,16 @@ Click on Create parameter when done.
 <img width="1118" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/182f0852-338c-4398-8346-b9ae45dd6919">
 
 <img width="1180" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8f145de9-ed1e-4426-998d-f4e1a207dcb5">
+
+## Step 5: Check Metrics
+
+<img width="1377" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8c72ff8c-669a-4eb1-8e54-0c75c5b6a55f">
+
+<img width="1166" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/daab4a53-b71a-4d18-92f9-7777ea62640b">
+
+<img width="1157" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/2e6663bd-f0c4-4832-819a-8c72bf8b56e1">
+
+
 
 
 
