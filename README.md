@@ -121,7 +121,7 @@ Click on create parameter when done.
 
 <img width="1157" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/2e6663bd-f0c4-4832-819a-8c72bf8b56e1">
 
-## Step 6: Display Metrics on Grafana
+## Step 6: Setting up grafana installation and configuration
 
 - Setup an instance (ubuntu) and install grafana on it and ensure you set the security group by opening port 3000 for grafana
 
@@ -199,6 +199,8 @@ systemctl status grafana-server
 
 <img width="1029" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/6680ada3-697d-46d1-945e-2637889a1304">
 
+## Step 7: Connecting to grafana 
+
 - Access the grafana UI using admin for both username and password and change your password to your choice.
 
 <img width="1439" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/b04ab93d-8ad1-4b09-9064-2a2126739dc1">
@@ -209,7 +211,7 @@ systemctl status grafana-server
 
 <img width="1432" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/03f8e095-126c-440b-992f-ce061c42804b">
 
-7. Connect grafana to Cloudwatch: I got some errors, trying to comm
+- Connect grafana to Cloudwatch: I got some errors, trying to comm
 
 
 
