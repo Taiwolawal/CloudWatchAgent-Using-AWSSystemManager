@@ -225,6 +225,8 @@ systemctl status grafana-server
 
 <img width="1423" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/8b10e8ae-d38a-4f4a-871a-cfb3a473bfd7">
 
+- Metrics displaying as expected
+
 <img width="1436" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/aa1de3f7-d4a1-4c63-b57d-22daee92619d">
 
 
