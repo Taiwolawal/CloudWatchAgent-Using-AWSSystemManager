@@ -200,6 +200,8 @@ systemctl status grafana-server
 
 <img width="569" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/08417f04-b6a5-46c7-a4fd-1dc1dce6b5ad">
 
+<img width="581" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/b0b079a0-6c8f-4ffb-a5c0-af1e64180a12">
+
 
 6. Attach the role to grafana instance
 
