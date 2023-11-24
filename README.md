@@ -237,8 +237,9 @@ A custom dashboard for all metrics
 <img width="1427" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/d2144fb5-f078-4ba8-a04d-f017e9226bef">
 
 
+Key Note: To work with logs also, follow the highlight in the screenshot
 
-
+<img width="501" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/f33123c0-76e0-4548-a2f6-f863ee0fe17a">
 
 
 
