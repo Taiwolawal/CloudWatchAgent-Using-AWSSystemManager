@@ -251,6 +251,20 @@ We need to change our configuration for datasource in Grafana to focus only on C
 
 ![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/08e69d15-49d0-450e-a1e5-f327da4c63a6)
 
+Create a new dashboard, set CloudWatch as source. The next page needs to be updated according to the highlights in the screenshot. They are:
+- Namespace: CWAgent
+- Metric Name: The list of metrics you specified in the parameter will be highlighted, select your choice of metrics.
+- Statistics: Average, Maximum, Minimum
+- Dimension
+
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/42b37702-5100-44cd-be78-ad973d8442f0)
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/67e980a1-3311-4b7b-88bb-4e84f602e150)
+
+
+
+
 
 
 
