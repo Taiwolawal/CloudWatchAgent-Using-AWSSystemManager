@@ -241,6 +241,18 @@ Key Note: To work with logs also, follow the highlight in the screenshot
 
 <img width="501" alt="image" src="https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/f33123c0-76e0-4548-a2f6-f863ee0fe17a">
 
+## Note
+
+The metrics that we displayed above are default metrics for ec2, the metrics we are more concerned about are the ones monitored by our Cloudwatch agents
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/da27ffa6-17e9-4e02-be5a-6b7fa99611e1)
+
+We need to change our configuration for datasource in Grafana to focus only on CWAgent (Cloudwatch agents). In the namespace section enter ```CWAgent``` and save.The remaining settings are the same
+
+![image](https://github.com/Taiwolawal/CloudWatchAgent-Using-AWSSystemManager/assets/50557587/08e69d15-49d0-450e-a1e5-f327da4c63a6)
+
+
+
 
 
 
